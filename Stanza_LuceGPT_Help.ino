@@ -194,7 +194,7 @@ void accendiSpegni(){
     while(i < 4){
       if(((getSonar()) > MIN_DISTANZA_LUCE) && ((getSonar() < MAX_DISTANZA_LUCE))){
         j++;
-        delay(300);
+        delay(150);
       }
 
       i++;
